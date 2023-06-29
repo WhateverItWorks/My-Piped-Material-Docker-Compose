@@ -38,9 +38,9 @@ docker-compose up -d --build
 
 ## Help
 
-Join the Libera Chat channel [#piped-material via IRC](ircs://irc.libera.chat:6697/#piped-material).
+Join the Libera Chat IRC Channel [#piped-material](ircs://irc.libera.chat:6697/#piped-material).
 
-Or alternatively you [can join in via Matrix](https://matrix.to/#/#piped-material:libera.chat).
+Join the Matrix Chat Channel: #piped-material:libera.chat
 
 ## How to contribute
 
