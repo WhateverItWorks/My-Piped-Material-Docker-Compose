@@ -31,9 +31,10 @@ Production instances are updated infrequently, and do not include features that 
 Piped-Material's Production instance is also available via IPFS at IPNS key `k51qzi5uqu5dl0a18rats73hcc6d5dtvtz9pjbpgzj6hl66b9za5i5wn0yzgjv`.
 For example, it's available [via dweb.link](https://k51qzi5uqu5dl0a18rats73hcc6d5dtvtz9pjbpgzj6hl66b9za5i5wn0yzgjv.ipns.dweb.link) and [via cf-ipfs.com](https://k51qzi5uqu5dl0a18rats73hcc6d5dtvtz9pjbpgzj6hl66b9za5i5wn0yzgjv.ipns.cf-ipfs.com).
 
-## Self-hosting
-
-There's a Dockerfile to build a Piped-Material deployment (using a simple nginx server hosting the SPA files) [located here](https://github.com/mmjee/pm-docker). It can be customized with build arguments. Piped-Material is just a SPA so `yarn install; yarn run build` is enough to generate static files.
+## Deploy with Docker (Easy & Recommended)
+```
+docker-compose up -d --build
+```
 
 ## Help
 
